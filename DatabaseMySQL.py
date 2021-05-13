@@ -21,7 +21,7 @@ class DatabaseMySQL:
             database="sql5411831",
             port="3306",
             pool_name = "mypool",
-            pool_size = 10
+            pool_size = 5
         )
 
     def __create_MySQL_queries(self):

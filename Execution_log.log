@@ -4126,3 +4126,982 @@ Traceback (most recent call last):
   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.1520.0_x64__qbz5n2kfra8p0\lib\concurrent\futures\thread.py", line 161, in submit
     raise RuntimeError('cannot schedule new futures after shutdown')
 RuntimeError: cannot schedule new futures after shutdown
+WARNING:root:2021-05-13 20:29:49.925269 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:52 CEST)" (scheduled at 2021-05-13 20:29:52.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:52 CEST)" (scheduled at 2021-05-13 20:29:52.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:54 CEST)" (scheduled at 2021-05-13 20:29:54.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:54 CEST)" (scheduled at 2021-05-13 20:29:54.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:56 CEST)" (scheduled at 2021-05-13 20:29:56.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:56 CEST)" (scheduled at 2021-05-13 20:29:56.136520+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:58 CEST)" (scheduled at 2021-05-13 20:29:58.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:29:58 CEST)" (scheduled at 2021-05-13 20:29:58.136520+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:00 CEST)" (scheduled at 2021-05-13 20:30:00.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:00 CEST)" (scheduled at 2021-05-13 20:30:00.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:04 CEST)" (scheduled at 2021-05-13 20:30:02.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:04 CEST)" (scheduled at 2021-05-13 20:30:02.136520+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:06 CEST)" (scheduled at 2021-05-13 20:30:04.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:06 CEST)" (scheduled at 2021-05-13 20:30:04.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:08 CEST)" (scheduled at 2021-05-13 20:30:06.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:08 CEST)" (scheduled at 2021-05-13 20:30:06.136520+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:10 CEST)" (scheduled at 2021-05-13 20:30:08.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:10 CEST)" (scheduled at 2021-05-13 20:30:08.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:12 CEST)" (scheduled at 2021-05-13 20:30:10.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:12 CEST)" (scheduled at 2021-05-13 20:30:10.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:14 CEST)" (scheduled at 2021-05-13 20:30:12.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:14 CEST)" (scheduled at 2021-05-13 20:30:12.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:16 CEST)" (scheduled at 2021-05-13 20:30:14.132628+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:16 CEST)" (scheduled at 2021-05-13 20:30:14.136520+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:30:16 CEST)" executed successfully
+WARNING:root:2021-05-13 20:31:57.005228 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:31:59 CEST)" (scheduled at 2021-05-13 20:31:59.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:31:59 CEST)" (scheduled at 2021-05-13 20:31:59.063343+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:01 CEST)" (scheduled at 2021-05-13 20:32:01.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:01 CEST)" (scheduled at 2021-05-13 20:32:01.063343+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:03 CEST)" (scheduled at 2021-05-13 20:32:03.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:03 CEST)" (scheduled at 2021-05-13 20:32:03.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:05 CEST)" executed successfully
+WARNING:root:2021-05-13 20:32:04.890802 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Debugger is active!
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:05 CEST)" (scheduled at 2021-05-13 20:32:05.059097+02:00)
+INFO:werkzeug: * Debugger PIN: 594-931-665
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:05 CEST)" (scheduled at 2021-05-13 20:32:05.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:06 CEST)" (scheduled at 2021-05-13 20:32:06.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:06 CEST)" (scheduled at 2021-05-13 20:32:06.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:07 CEST)" (scheduled at 2021-05-13 20:32:07.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:07 CEST)" (scheduled at 2021-05-13 20:32:07.063343+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:08 CEST)" (scheduled at 2021-05-13 20:32:08.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:08 CEST)" (scheduled at 2021-05-13 20:32:08.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:11 CEST)" (scheduled at 2021-05-13 20:32:09.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:11 CEST)" (scheduled at 2021-05-13 20:32:09.063343+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:10 CEST)" (scheduled at 2021-05-13 20:32:10.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:10 CEST)" (scheduled at 2021-05-13 20:32:10.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:13 CEST)" (scheduled at 2021-05-13 20:32:11.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:13 CEST)" (scheduled at 2021-05-13 20:32:11.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:12 CEST)" (scheduled at 2021-05-13 20:32:12.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:12 CEST)" (scheduled at 2021-05-13 20:32:12.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:15 CEST)" (scheduled at 2021-05-13 20:32:13.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:15 CEST)" (scheduled at 2021-05-13 20:32:13.063343+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:14 CEST)" (scheduled at 2021-05-13 20:32:14.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:14 CEST)" (scheduled at 2021-05-13 20:32:14.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:17 CEST)" (scheduled at 2021-05-13 20:32:15.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:17 CEST)" (scheduled at 2021-05-13 20:32:15.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:18 CEST)" (scheduled at 2021-05-13 20:32:16.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:18 CEST)" (scheduled at 2021-05-13 20:32:16.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:19 CEST)" (scheduled at 2021-05-13 20:32:17.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:19 CEST)" (scheduled at 2021-05-13 20:32:17.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:18 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:18 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:19 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:32:18] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:32:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:20 CEST)" (scheduled at 2021-05-13 20:32:18.939020+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:20 CEST)" (scheduled at 2021-05-13 20:32:18.942863+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:21 CEST)" (scheduled at 2021-05-13 20:32:19.059097+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:21 CEST)" (scheduled at 2021-05-13 20:32:19.063343+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:32:21 CEST)" executed successfully
+WARNING:root:2021-05-13 20:35:01.198097 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:03 CEST)" (scheduled at 2021-05-13 20:35:03.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:03 CEST)" (scheduled at 2021-05-13 20:35:03.251191+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:05 CEST)" (scheduled at 2021-05-13 20:35:05.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:05 CEST)" (scheduled at 2021-05-13 20:35:05.251191+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:07 CEST)" (scheduled at 2021-05-13 20:35:07.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:07 CEST)" (scheduled at 2021-05-13 20:35:07.251191+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:09 CEST)" executed successfully
+WARNING:root:2021-05-13 20:35:09.108164 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 594-931-665
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:09 CEST)" (scheduled at 2021-05-13 20:35:09.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:09 CEST)" (scheduled at 2021-05-13 20:35:09.251191+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:35:09] "[35m[1mGET /currency_sumary?currency=BTC HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:35:09] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:35:09] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:35:09] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:35:10] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" (scheduled at 2021-05-13 20:35:11.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" (scheduled at 2021-05-13 20:35:11.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" (scheduled at 2021-05-13 20:35:11.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:11 CEST)" (scheduled at 2021-05-13 20:35:11.251191+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" (scheduled at 2021-05-13 20:35:13.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:13 CEST)" (scheduled at 2021-05-13 20:35:13.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" (scheduled at 2021-05-13 20:35:13.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" (scheduled at 2021-05-13 20:35:13.251191+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" (scheduled at 2021-05-13 20:35:15.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:15 CEST)" (scheduled at 2021-05-13 20:35:15.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" (scheduled at 2021-05-13 20:35:15.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" (scheduled at 2021-05-13 20:35:15.251191+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" (scheduled at 2021-05-13 20:35:17.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:17 CEST)" (scheduled at 2021-05-13 20:35:17.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" (scheduled at 2021-05-13 20:35:17.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" (scheduled at 2021-05-13 20:35:17.251191+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" (scheduled at 2021-05-13 20:35:19.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:19 CEST)" (scheduled at 2021-05-13 20:35:19.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" (scheduled at 2021-05-13 20:35:19.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" (scheduled at 2021-05-13 20:35:19.251191+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" (scheduled at 2021-05-13 20:35:21.158996+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" (scheduled at 2021-05-13 20:35:21.162610+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" (scheduled at 2021-05-13 20:35:21.247434+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" (scheduled at 2021-05-13 20:35:21.251191+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:35:23 CEST)" executed successfully
+WARNING:root:2021-05-13 20:37:43.632259 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:45 CEST)" (scheduled at 2021-05-13 20:37:45.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:45 CEST)" (scheduled at 2021-05-13 20:37:45.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:47 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:47 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:47 CEST)" (scheduled at 2021-05-13 20:37:47.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:47 CEST)" (scheduled at 2021-05-13 20:37:47.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:49 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:49 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:49 CEST)" (scheduled at 2021-05-13 20:37:49.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:49 CEST)" (scheduled at 2021-05-13 20:37:49.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:51 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:51 CEST)" executed successfully
+WARNING:root:2021-05-13 20:37:50.446736 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 594-931-665
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:51 CEST)" (scheduled at 2021-05-13 20:37:51.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:51 CEST)" (scheduled at 2021-05-13 20:37:51.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:53 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:53 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:37:52] "[35m[1mGET /currency_sumary?currency=BTC HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:37:52] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:37:52] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:37:52] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:52 CEST)" (scheduled at 2021-05-13 20:37:52.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:52 CEST)" (scheduled at 2021-05-13 20:37:52.499162+02:00)
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:37:52] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:53 CEST)" (scheduled at 2021-05-13 20:37:53.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:53 CEST)" (scheduled at 2021-05-13 20:37:53.687930+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:55 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:55 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:54 CEST)" (scheduled at 2021-05-13 20:37:54.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:54 CEST)" (scheduled at 2021-05-13 20:37:54.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:57 CEST)" (scheduled at 2021-05-13 20:37:55.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:57 CEST)" (scheduled at 2021-05-13 20:37:55.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:56 CEST)" (scheduled at 2021-05-13 20:37:56.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:56 CEST)" (scheduled at 2021-05-13 20:37:56.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:59 CEST)" (scheduled at 2021-05-13 20:37:57.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:59 CEST)" (scheduled at 2021-05-13 20:37:57.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:59 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:59 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:58 CEST)" (scheduled at 2021-05-13 20:37:58.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:37:58 CEST)" (scheduled at 2021-05-13 20:37:58.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:01 CEST)" (scheduled at 2021-05-13 20:37:59.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:01 CEST)" (scheduled at 2021-05-13 20:37:59.687930+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:00 CEST)" (scheduled at 2021-05-13 20:38:00.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:00 CEST)" (scheduled at 2021-05-13 20:38:00.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:03 CEST)" (scheduled at 2021-05-13 20:38:01.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:03 CEST)" (scheduled at 2021-05-13 20:38:01.687930+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:04 CEST)" (scheduled at 2021-05-13 20:38:02.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:04 CEST)" (scheduled at 2021-05-13 20:38:02.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:05 CEST)" (scheduled at 2021-05-13 20:38:03.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:05 CEST)" (scheduled at 2021-05-13 20:38:03.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:06 CEST)" (scheduled at 2021-05-13 20:38:04.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:06 CEST)" (scheduled at 2021-05-13 20:38:04.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:07 CEST)" (scheduled at 2021-05-13 20:38:05.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:07 CEST)" (scheduled at 2021-05-13 20:38:05.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:08 CEST)" (scheduled at 2021-05-13 20:38:06.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:08 CEST)" (scheduled at 2021-05-13 20:38:06.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:09 CEST)" (scheduled at 2021-05-13 20:38:07.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:09 CEST)" (scheduled at 2021-05-13 20:38:07.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:10 CEST)" (scheduled at 2021-05-13 20:38:08.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:10 CEST)" (scheduled at 2021-05-13 20:38:08.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:10 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:11 CEST)" (scheduled at 2021-05-13 20:38:09.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:11 CEST)" (scheduled at 2021-05-13 20:38:09.687930+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:12 CEST)" (scheduled at 2021-05-13 20:38:10.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:12 CEST)" (scheduled at 2021-05-13 20:38:10.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:13 CEST)" (scheduled at 2021-05-13 20:38:11.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:13 CEST)" (scheduled at 2021-05-13 20:38:11.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:13 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:14 CEST)" (scheduled at 2021-05-13 20:38:12.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:14 CEST)" (scheduled at 2021-05-13 20:38:12.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:15 CEST)" (scheduled at 2021-05-13 20:38:13.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:15 CEST)" (scheduled at 2021-05-13 20:38:13.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:16 CEST)" (scheduled at 2021-05-13 20:38:14.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:16 CEST)" (scheduled at 2021-05-13 20:38:14.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:17 CEST)" (scheduled at 2021-05-13 20:38:15.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:17 CEST)" (scheduled at 2021-05-13 20:38:15.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:17 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:18 CEST)" (scheduled at 2021-05-13 20:38:16.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:18 CEST)" (scheduled at 2021-05-13 20:38:16.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:18 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:18 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:19 CEST)" (scheduled at 2021-05-13 20:38:17.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:19 CEST)" (scheduled at 2021-05-13 20:38:17.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:20 CEST)" (scheduled at 2021-05-13 20:38:18.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:20 CEST)" (scheduled at 2021-05-13 20:38:18.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:21 CEST)" (scheduled at 2021-05-13 20:38:19.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:21 CEST)" (scheduled at 2021-05-13 20:38:19.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:22 CEST)" (scheduled at 2021-05-13 20:38:20.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:22 CEST)" (scheduled at 2021-05-13 20:38:20.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:22 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:22 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:23 CEST)" (scheduled at 2021-05-13 20:38:21.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:23 CEST)" (scheduled at 2021-05-13 20:38:21.687930+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:24 CEST)" (scheduled at 2021-05-13 20:38:22.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:24 CEST)" (scheduled at 2021-05-13 20:38:22.499162+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:24 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:24 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:25 CEST)" (scheduled at 2021-05-13 20:38:23.684215+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:25 CEST)" (scheduled at 2021-05-13 20:38:23.687930+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:25 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:25 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:26 CEST)" (scheduled at 2021-05-13 20:38:24.495399+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:26 CEST)" (scheduled at 2021-05-13 20:38:24.499162+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:26 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:26 CEST)" executed successfully
+WARNING:root:2021-05-13 20:38:35.549195 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:37 CEST)" (scheduled at 2021-05-13 20:38:37.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:37 CEST)" (scheduled at 2021-05-13 20:38:37.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:39 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:39 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:39 CEST)" (scheduled at 2021-05-13 20:38:39.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:39 CEST)" (scheduled at 2021-05-13 20:38:39.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:41 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:41 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:41 CEST)" (scheduled at 2021-05-13 20:38:41.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:41 CEST)" (scheduled at 2021-05-13 20:38:41.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:43 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:43 CEST)" executed successfully
+WARNING:root:2021-05-13 20:38:42.923573 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 594-931-665
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:43 CEST)" (scheduled at 2021-05-13 20:38:43.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:43 CEST)" (scheduled at 2021-05-13 20:38:43.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:45 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:45 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:44 CEST)" (scheduled at 2021-05-13 20:38:44.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:44 CEST)" (scheduled at 2021-05-13 20:38:44.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:46 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:46 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:45 CEST)" (scheduled at 2021-05-13 20:38:45.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:45 CEST)" (scheduled at 2021-05-13 20:38:45.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:47 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:47 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:46 CEST)" (scheduled at 2021-05-13 20:38:46.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:46 CEST)" (scheduled at 2021-05-13 20:38:46.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:48 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:48 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:49 CEST)" (scheduled at 2021-05-13 20:38:47.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:49 CEST)" (scheduled at 2021-05-13 20:38:47.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:49 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:49 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:48] "[35m[1mGET /currency_sumary?currency=BTC HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:48] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:48] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:48] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:48] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:48 CEST)" (scheduled at 2021-05-13 20:38:48.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:48 CEST)" (scheduled at 2021-05-13 20:38:48.974326+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:50 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:50 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:51 CEST)" (scheduled at 2021-05-13 20:38:49.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:51 CEST)" (scheduled at 2021-05-13 20:38:49.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:51 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:51 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:50 CEST)" (scheduled at 2021-05-13 20:38:50.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:50 CEST)" (scheduled at 2021-05-13 20:38:50.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:52 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:52 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:53 CEST)" (scheduled at 2021-05-13 20:38:51.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:53 CEST)" (scheduled at 2021-05-13 20:38:51.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:53 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:53 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:52 CEST)" (scheduled at 2021-05-13 20:38:52.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:52 CEST)" (scheduled at 2021-05-13 20:38:52.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:54 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:55 CEST)" (scheduled at 2021-05-13 20:38:53.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:55 CEST)" (scheduled at 2021-05-13 20:38:53.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:55 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:55 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:56 CEST)" (scheduled at 2021-05-13 20:38:54.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:56 CEST)" (scheduled at 2021-05-13 20:38:54.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:56 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:57 CEST)" (scheduled at 2021-05-13 20:38:55.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:57 CEST)" (scheduled at 2021-05-13 20:38:55.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:58 CEST)" (scheduled at 2021-05-13 20:38:56.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:58 CEST)" (scheduled at 2021-05-13 20:38:56.974326+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:58 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:59 CEST)" (scheduled at 2021-05-13 20:38:57.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:59 CEST)" (scheduled at 2021-05-13 20:38:57.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:59 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:38:59 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:58] "[35m[1mGET /currency_sumary?currency=ZRX HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:58] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:58] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:38:58] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:00 CEST)" (scheduled at 2021-05-13 20:38:58.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:00 CEST)" (scheduled at 2021-05-13 20:38:58.974326+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:00 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:01 CEST)" (scheduled at 2021-05-13 20:38:59.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:01 CEST)" (scheduled at 2021-05-13 20:38:59.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:02 CEST)" (scheduled at 2021-05-13 20:39:00.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:02 CEST)" (scheduled at 2021-05-13 20:39:00.974326+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:02 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:03 CEST)" (scheduled at 2021-05-13 20:39:01.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:03 CEST)" (scheduled at 2021-05-13 20:39:01.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:04 CEST)" (scheduled at 2021-05-13 20:39:02.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:04 CEST)" (scheduled at 2021-05-13 20:39:02.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:04 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:05 CEST)" (scheduled at 2021-05-13 20:39:03.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:05 CEST)" (scheduled at 2021-05-13 20:39:03.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:06 CEST)" (scheduled at 2021-05-13 20:39:04.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:06 CEST)" (scheduled at 2021-05-13 20:39:04.974326+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:06 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:07 CEST)" (scheduled at 2021-05-13 20:39:05.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:07 CEST)" (scheduled at 2021-05-13 20:39:05.606177+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:08 CEST)" (scheduled at 2021-05-13 20:39:06.970602+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:08 CEST)" (scheduled at 2021-05-13 20:39:06.974326+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:08 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:09 CEST)" (scheduled at 2021-05-13 20:39:07.602378+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:09 CEST)" (scheduled at 2021-05-13 20:39:07.606177+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:09 CEST)" executed successfully
+WARNING:root:2021-05-13 20:39:25.520031 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:27 CEST)" (scheduled at 2021-05-13 20:39:27.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:29 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:29 CEST)" (scheduled at 2021-05-13 20:39:29.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:31 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:31 CEST)" (scheduled at 2021-05-13 20:39:31.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:33 CEST)" executed successfully
+WARNING:root:2021-05-13 20:39:32.858666 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 594-931-665
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:33 CEST)" (scheduled at 2021-05-13 20:39:33.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:35 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:34 CEST)" (scheduled at 2021-05-13 20:39:34.906285+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:36 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:35 CEST)" (scheduled at 2021-05-13 20:39:35.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:37 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:39:35] "[35m[1mGET /currency_sumary?currency=ZRX HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:39:35] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:39:35] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:39:36] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:39:36] "GET /currency_sumary?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:36 CEST)" (scheduled at 2021-05-13 20:39:36.906285+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:38 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:37 CEST)" (scheduled at 2021-05-13 20:39:37.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:39 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:38 CEST)" (scheduled at 2021-05-13 20:39:38.906285+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:40 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:39 CEST)" (scheduled at 2021-05-13 20:39:39.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:41 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:40 CEST)" (scheduled at 2021-05-13 20:39:40.906285+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:42 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:41 CEST)" (scheduled at 2021-05-13 20:39:41.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:43 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:42 CEST)" (scheduled at 2021-05-13 20:39:42.906285+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:44 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:43 CEST)" (scheduled at 2021-05-13 20:39:43.573055+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:45 CEST)" executed successfully
+INFO:werkzeug: * Detected change in '/home/gustavo/Documents/Programs/smarttbot/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:root:2021-05-13 20:39:53.061990 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:55 CEST)" (scheduled at 2021-05-13 20:39:55.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:57 CEST)" (scheduled at 2021-05-13 20:39:57.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:59 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:39:59 CEST)" (scheduled at 2021-05-13 20:39:59.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:01 CEST)" (scheduled at 2021-05-13 20:40:01.100694+02:00)
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:40:01] "GET /currency_sumary?currency=ZRX HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:03 CEST)" (scheduled at 2021-05-13 20:40:03.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:05 CEST)" (scheduled at 2021-05-13 20:40:05.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:07 CEST)" (scheduled at 2021-05-13 20:40:07.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:09 CEST)" (scheduled at 2021-05-13 20:40:09.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:11 CEST)" (scheduled at 2021-05-13 20:40:11.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:13 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:40:11] "GET /currency_sumary?currency=ZRX HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:13 CEST)" (scheduled at 2021-05-13 20:40:13.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:15 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:17 CEST)" (scheduled at 2021-05-13 20:40:15.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:17 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:40:17] "GET /currency_sumary?currency=ZRX HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:19 CEST)" (scheduled at 2021-05-13 20:40:17.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:19 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:21 CEST)" (scheduled at 2021-05-13 20:40:19.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:21 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:23 CEST)" (scheduled at 2021-05-13 20:40:21.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:23 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:25 CEST)" (scheduled at 2021-05-13 20:40:23.100694+02:00)
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:40:23] "GET /currency_sumary?currency=BTC HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:25 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:27 CEST)" (scheduled at 2021-05-13 20:40:25.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:27 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:29 CEST)" (scheduled at 2021-05-13 20:40:27.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:29 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:31 CEST)" (scheduled at 2021-05-13 20:40:29.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:31 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:33 CEST)" (scheduled at 2021-05-13 20:40:31.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:33 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:35 CEST)" (scheduled at 2021-05-13 20:40:33.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:35 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:37 CEST)" (scheduled at 2021-05-13 20:40:35.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:37 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:39 CEST)" (scheduled at 2021-05-13 20:40:37.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:39 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:41 CEST)" (scheduled at 2021-05-13 20:40:39.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:41 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:43 CEST)" (scheduled at 2021-05-13 20:40:41.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:43 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:45 CEST)" (scheduled at 2021-05-13 20:40:43.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:45 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:47 CEST)" (scheduled at 2021-05-13 20:40:45.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:47 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:49 CEST)" (scheduled at 2021-05-13 20:40:47.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:49 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:51 CEST)" (scheduled at 2021-05-13 20:40:49.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:51 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:53 CEST)" (scheduled at 2021-05-13 20:40:51.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:53 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:55 CEST)" (scheduled at 2021-05-13 20:40:53.100694+02:00)
+INFO:apscheduler.executors.default:Running job "BTC_1min_candle (trigger: interval[0:01:00], next run at: 2021-05-13 20:41:53 CEST)" (scheduled at 2021-05-13 20:40:53.100907+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:55 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_1min_candle (trigger: interval[0:01:00], next run at: 2021-05-13 20:41:53 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:57 CEST)" (scheduled at 2021-05-13 20:40:55.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:57 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:59 CEST)" (scheduled at 2021-05-13 20:40:57.100694+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:40:59 CEST)" executed successfully
+WARNING:root:2021-05-13 20:41:08.622170 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:10 CEST)" (scheduled at 2021-05-13 20:41:10.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:10 CEST)" (scheduled at 2021-05-13 20:41:10.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:12 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:12 CEST)" (scheduled at 2021-05-13 20:41:12.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:12 CEST)" (scheduled at 2021-05-13 20:41:12.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:14 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:14 CEST)" (scheduled at 2021-05-13 20:41:14.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:14 CEST)" (scheduled at 2021-05-13 20:41:14.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:16 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:16 CEST)" (scheduled at 2021-05-13 20:41:16.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:16 CEST)" (scheduled at 2021-05-13 20:41:16.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:18 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:18 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:41:18] "GET /currency_sumary?currency=BTC HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:18 CEST)" (scheduled at 2021-05-13 20:41:18.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:18 CEST)" (scheduled at 2021-05-13 20:41:18.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:20 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:22 CEST)" (scheduled at 2021-05-13 20:41:20.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:22 CEST)" (scheduled at 2021-05-13 20:41:20.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:22 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:22 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:24 CEST)" (scheduled at 2021-05-13 20:41:22.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:24 CEST)" (scheduled at 2021-05-13 20:41:22.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:24 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:24 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:26 CEST)" (scheduled at 2021-05-13 20:41:24.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:26 CEST)" (scheduled at 2021-05-13 20:41:24.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:26 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:26 CEST)" executed successfully
+INFO:werkzeug:127.0.0.1 - - [13/May/2021 20:41:26] "GET /currency_sumary?currency=ZRX HTTP/1.1" 200 -
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:28 CEST)" (scheduled at 2021-05-13 20:41:26.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:28 CEST)" (scheduled at 2021-05-13 20:41:26.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:28 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:28 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:30 CEST)" (scheduled at 2021-05-13 20:41:28.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:30 CEST)" (scheduled at 2021-05-13 20:41:28.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:30 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:30 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:32 CEST)" (scheduled at 2021-05-13 20:41:30.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:32 CEST)" (scheduled at 2021-05-13 20:41:30.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:32 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:32 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:34 CEST)" (scheduled at 2021-05-13 20:41:32.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:34 CEST)" (scheduled at 2021-05-13 20:41:32.677324+02:00)
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:34 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:34 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:36 CEST)" (scheduled at 2021-05-13 20:41:34.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:36 CEST)" (scheduled at 2021-05-13 20:41:34.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:36 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:36 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:38 CEST)" (scheduled at 2021-05-13 20:41:36.673694+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:38 CEST)" (scheduled at 2021-05-13 20:41:36.677324+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:38 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 20:41:38 CEST)" executed successfully
+WARNING:root:2021-05-13 22:42:31.739076 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:42:33 CEST)" (scheduled at 2021-05-13 22:42:33.844181+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:42:33 CEST)" (scheduled at 2021-05-13 22:42:33.860550+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:42:35 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:42:35 CEST)" executed successfully
+WARNING:root:2021-05-13 22:42:46.177088 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:root:2021-05-13 22:46:03.810778 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:root:2021-05-13 22:48:46.873833 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.executors.default:Running job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:48:48 CEST)" (scheduled at 2021-05-13 22:48:48.945975+02:00)
+INFO:apscheduler.executors.default:Running job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:48:48 CEST)" (scheduled at 2021-05-13 22:48:48.950586+02:00)
+INFO:apscheduler.executors.default:Job "BTC_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:48:50 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "ZRX_update (trigger: interval[0:00:02], next run at: 2021-05-13 22:48:50 CEST)" executed successfully
+WARNING:root:2021-05-13 22:49:47.451690 - Starting the Scheduler
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "BTC_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "BTC_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_update" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_1min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_5min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "ZRX_10min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.10:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat

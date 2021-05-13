@@ -6,6 +6,7 @@ from flask import Flask
 from flask import request
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
+from redis import Redis
 
 # Global variables to setup the program
 # Period in seconds of the task that gets current currency values from Poloniex
@@ -30,6 +31,7 @@ class Config:
     SCHEDULER_API_ENABLED = True
 
 app = Flask(__name__)
+redis = Redis(host='redis', port=6379)
 app.config.from_object(Config())
 
 @app.route('/currency_sumary')
@@ -86,10 +88,10 @@ def start_currency_candles(currency):
     scheduler.add_job(id=currency + "_10min_candle", name=currency + "_10min_candle", func=add_10_min_candle, trigger="interval", seconds=CANDLE_600_SECONDS_PERIOD)
 
 
-if __name__ == "__main__":   
+if __name__ == "__main__":      
     # Init log file
     logging.basicConfig(filename='Execution_log.log', 
-                        encoding='utf-8',
+                        #encoding='utf-8',
                         level=logging.INFO)
     logging.warning("{} - Starting the Scheduler".format(datetime.now()))
     for currency in currency_list:
@@ -98,7 +100,7 @@ if __name__ == "__main__":
         else:
             logging.warning("Currency {} not disponible, it will be ignored during the execution".format(currency))
     scheduler.start()
-    app.run()
+    app.run(host="0.0.0.0", debug=True)
     
     
     
