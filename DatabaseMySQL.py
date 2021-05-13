@@ -30,7 +30,7 @@ class DatabaseMySQL:
         sql = "INSERT INTO sql5411831.Candles (currencyPair, updateDate) VALUES (%s, %s)"
         for currency in cc.disponible_currencies:
             val = (currency, datetime.now())
-            self.mycursor.execute(sql, val)
+            self.mycursor.execute(sql, val, multi=True)
             self.databaseMySQL.commit()
 
     def __to_JSON(self, fetchResponse):
@@ -39,7 +39,11 @@ class DatabaseMySQL:
         for result in fetchResponse:
             json_data.append(dict(zip(row_headers,result)))
         # Updates table to a new version
-        self.databaseMySQL.commit()
+        try:
+            self.databaseMySQL.commit()
+        except Exception as e:
+            self.databaseMySQL.rollback()
+            raise e
         return json.dumps(json_data)
 
     def select_currency(self, currency):
@@ -51,19 +55,28 @@ class DatabaseMySQL:
     def update_1_min_candle(self, high, low, currency):
         currency = 'USDT_' + currency.upper()
         val = (high, low, datetime.now(), currency,)
-        self.mycursor.execute(self.__sql_update_1min, val)
-        self.databaseMySQL.commit()
+        try:
+            self.mycursor.execute(self.__sql_update_1min, val, multi=True)
+            self.databaseMySQL.commit()
+        except Exception as e:
+            self.__create_databse_connection()
 
     def update_5_min_candle(self, high, low, currency):
         currency = 'USDT_' + currency.upper()
         val = (high, low, datetime.now(), currency,)
-        self.mycursor.execute(self.__sql_update_5min, val)
-        self.databaseMySQL.commit()
+        try:
+            self.mycursor.execute(self.__sql_update_5min, val, multi=True)
+            self.databaseMySQL.commit()
+        except Exception as e:
+            self.__create_databse_connection()
 
     def update_10_min_candle(self, high, low, currency):
         currency = 'USDT_' + currency.upper()
         val = (high, low, datetime.now(), currency,)
-        self.mycursor.execute(self.__sql_update_10min, val)
-        self.databaseMySQL.commit()
+        try:
+            self.mycursor.execute(self.__sql_update_10min, val, multi=True)
+            self.databaseMySQL.commit()
+        except Exception as e:
+            self.__create_databse_connection()
         #return self.__to_JSON(self.mycursor.fetchall())
 

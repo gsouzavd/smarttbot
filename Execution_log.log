@@ -1,0 +1,44 @@
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:2021-05-13 14:26:57.801934 - Starting task for BTC
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:2021-05-13 14:26:57.804926 - Starting task for AAVE
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.update_currency_value" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_1_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_5_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_10_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.update_currency_value" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_1_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_5_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Added job "start_currency_candles.<locals>.add_10_min_candle" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:26:59 CEST)" (scheduled at 2021-05-13 14:26:59.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:26:59 CEST)" (scheduled at 2021-05-13 14:26:59.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:01 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:03 CEST)" (scheduled at 2021-05-13 14:27:01.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:03 CEST)" (scheduled at 2021-05-13 14:27:01.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:03 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:05 CEST)" (scheduled at 2021-05-13 14:27:03.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:05 CEST)" (scheduled at 2021-05-13 14:27:03.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:05 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:07 CEST)" (scheduled at 2021-05-13 14:27:05.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:07 CEST)" (scheduled at 2021-05-13 14:27:05.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:07 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:09 CEST)" (scheduled at 2021-05-13 14:27:07.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:09 CEST)" (scheduled at 2021-05-13 14:27:07.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:09 CEST)" executed successfully
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:11 CEST)" (scheduled at 2021-05-13 14:27:09.801934+02:00)
+INFO:apscheduler.executors.default:Running job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:11 CEST)" (scheduled at 2021-05-13 14:27:09.804926+02:00)
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:11 CEST)" executed successfully
+INFO:apscheduler.executors.default:Job "start_currency_candles.<locals>.update_currency_value (trigger: interval[0:00:02], next run at: 2021-05-13 14:27:11 CEST)" executed successfully
