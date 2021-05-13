@@ -211,10 +211,10 @@ class _CurrencyCandle:
     def __init__(self, currency, period):
         self.currency = currency
         self.period = period
-        self._high_candle = 0
-        self._low_candle = 0
-        self.open = 0
-        self.close = 0
+        self.__high_candle = 0
+        self.__low_candle = 0
+        self.__open = 0
+        self.__close = 0
         self.lastUpdateDateTime = datetime.now()
         self.trades_df = pd.DataFrame(columns = ['timestamp','value'])
         
@@ -224,15 +224,23 @@ class _CurrencyCandle:
         # Drop all timestamps lower than the candle
         self.trades_df = self.trades_df[~(self.trades_df['timestamp'] <= (datetime.now()-timedelta(seconds=self.period)).timestamp() ) ] 
         # Get current max and min
-        self._high_candle = self.trades_df['value'].max()
-        self._low_candle = self.trades_df['value'].min()
+        self.__high_candle = self.trades_df['value'].max()
+        self.__low_candle = self.trades_df['value'].min()
+        self.__open = self.trades_df['value'].iloc[0]
+        self.__close = self.trades_df['value'].iloc[-1]
         self.lastUpdateDateTime = datetime.now()
 
     def getCandleMax(self):
-        return self._high_candle
+        return self.__high_candle
 
     def getCandleMin(self):
-        return self._low_candle
+        return self.__low_candle
+
+    def getOpen(self):
+        return self.__open
+
+    def getClose(self):
+        return self.__close
 
 
 class _CurrencySumary:
