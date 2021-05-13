@@ -1,4 +1,2 @@
-/res
-/.idea
-/__pycache__
-Execution_log.log
+__pycache__/
+*.log
