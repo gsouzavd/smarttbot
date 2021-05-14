@@ -21,13 +21,12 @@ class DatabaseMySQL:
             database="sql5411831",
             port="3306",
             pool_name = "mypool",
-            pool_size = 5
+            pool_size = 8
         )
 
     def __create_MySQL_queries(self):
         # Queries used by the program
         self.__sql_select = "SELECT * FROM sql5411831.Candles WHERE currencyPair = %s"
-        self.__sql_update_24h = "UPDATE sql5411831.Candles SET high24h = %s, low24h = %s, updateDate = %s WHERE currencyPair = %s"
         self.__sql_update_1min = "UPDATE sql5411831.Candles SET high1min = %s, low1min = %s, open1min = %s, close1min = %s, updateDate = %s WHERE currencyPair = %s"
         self.__sql_update_5min = "UPDATE sql5411831.Candles SET high5min = %s, low5min = %s, open5min = %s, close5min = %s, updateDate = %s WHERE currencyPair = %s"
         self.__sql_update_10min = "UPDATE sql5411831.Candles SET high10min = %s, low10min = %s, open10min = %s, close10min = %s, updateDate = %s WHERE currencyPair = %s"

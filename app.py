@@ -17,7 +17,7 @@ CANDLE_300_SECONDS_PERIOD = 300 # Period of the task - update the 5 min candle
 CANDLE_600_SECONDS_PERIOD = 600 # Period of the task - update the 10 min candle
 
 # Currency list that will be used
-currency_list = ['BTC', 'ZRX']
+currency_list = ['BTC', 'XMR'] # Bitcoin BTC and Monero XMR
 #scheduler = APScheduler()
 scheduler = BackgroundScheduler()
 databaseMySQL = db.DatabaseMySQL()

@@ -209,6 +209,11 @@ disponible_currencies = ['AAVE',
 
 class _CurrencyCandle:
     def __init__(self, currency, period):
+        """
+        Class that defines a candle of a set period
+        @param {currency} Acronym of the desired currecy
+        @param {period} Period in seconds of the candle
+        """
         self.currency = currency
         self.period = period
         self.__high_candle = 0
@@ -219,6 +224,10 @@ class _CurrencyCandle:
         self.trades_df = pd.DataFrame(columns = ['timestamp','value'])
         
     def addToCandle(self, last):
+        """
+        Update the candle with the last read value
+        @param {last} Current value of the currency
+        """
         # Add new values to the dataframe 
         self.trades_df = self.trades_df.append({'timestamp': datetime.now().timestamp(), 'value' : last}, ignore_index=True)
         # Drop all timestamps lower than the candle
@@ -231,18 +240,31 @@ class _CurrencyCandle:
         self.lastUpdateDateTime = datetime.now()
 
     def getCandleMax(self):
+        """
+        @returns Maximum candle value 
+        """
         return self.__high_candle
 
     def getCandleMin(self):
+        """
+        @returns Lowest candle value 
+        """
         return self.__low_candle
 
     def getOpen(self):
+        """
+        @returns Open candle value 
+        """
         return self.__open
 
     def getClose(self):
+        """
+        @returns Close candle value 
+        """
         return self.__close
 
 
+# Class that hold the lecture of the Poloniex API
 class _CurrencySumary:
     def __init__(self, key, currecy_dict):
         self.key = key
@@ -270,14 +292,22 @@ class _CurrencySumary:
         self.low24hr = currecy_dict[self.key]['low24hr']
         self.lastUpdateDateTime = datetime.now()
 
+# Class that creates the candles
 class CurrencyCandles:
     def __init__(self, key):
+        """
+        Class that creates a candle
+        @param {currency} Acronym of the desired currecy
+        """
         self.key = key
         self.candle_60_seconds = _CurrencyCandle(self.key,60)
         self.candle_300_seconds = _CurrencyCandle(self.key,300)
         self.candle_600_seconds = _CurrencyCandle(self.key,600)
 
     def updateCurrencyCandles(self):
+        """
+        Updates candle values with the Poloniex API
+        """
         response = requests.get('https://poloniex.com/public?command=returnTicker')
         self.current_currency = _CurrencySumary(self.key, response.json())
         self.candle_60_seconds.addToCandle(self.current_currency.last)
