@@ -50,7 +50,6 @@ def start_currency_candles(currency):
         Get values from Poloniex server
         """
         currencyPair.updateCurrencyCandles()
-        print(currency)
         
     #@scheduler.task("interval", id="candle_60_"+currencyPair.key, seconds=CANDLE_60_SECONDS_PERIOD, misfire_grace_time = 1)
     def add_1_min_candle():
@@ -96,6 +95,7 @@ if __name__ == "__main__":
     logging.warning("{} - Starting the Scheduler".format(datetime.now()))
     for currency in currency_list:
         if (currency in cc.disponible_currencies):
+            logging.info("Logging currency {}".format(currency))
             start_currency_candles(currency)
         else:
             logging.warning("Currency {} not disponible, it will be ignored during the execution".format(currency))
