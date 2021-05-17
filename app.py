@@ -12,9 +12,9 @@ from flask_mysqlpool import MySQLPool
 # Period in seconds of the task that gets current currency values from Poloniex
 # Value chosen due to system limitations
 BASE_UPDATE_SCHEDULE_PERIOD = 2 
-CANDLE_60_SECONDS_PERIOD = 5 # Period of the task - update the 1 min candle
-CANDLE_300_SECONDS_PERIOD = 5 # Period of the task - update the 5 min candle
-CANDLE_600_SECONDS_PERIOD = 5 # Period of the task - update the 10 min candle
+CANDLE_60_SECONDS_PERIOD = 60 # Period of the task - update the 1 min candle
+CANDLE_300_SECONDS_PERIOD = 60 # Period of the task - update the 5 min candle
+CANDLE_600_SECONDS_PERIOD = 60 # Period of the task - update the 10 min candle
 
 # Currency list that will be used
 currency_list = ['BTC', 'XMR'] # Bitcoin BTC and Monero XMR
@@ -50,26 +50,30 @@ app.config.from_object(Config())
 
 @app.route('/currency_sumary')
 def get_currency_sumary():
-    return jsonify(databaseMySQL.get_select_currency(request.args.get('currency', default = 'BTC', type = str)))
+    try:
+        return jsonify(databaseMySQL.get_select_currency(request.args.get('currency', default = 'BTC', type = str)))
+    except ex:
+        return jsonify(db.HttpResponse(500, "Failed to obtain data"))
 
 @app.route('/currency_sumary/all')
 def get_currency_all():
-    return jsonify(databaseMySQL.get_select_all())
-
+    try:
+        return jsonify(databaseMySQL.get_select_all())
+    except ex:
+        return jsonify(db.HttpResponse(500, "Failed to obtain data"))
+        
 def start_currency_candles(currency):
     """
     Schedulers to USDT - Desired_currency pairs
     """
     currencyPair = cc.CurrencyCandles('USDT_' + currency.upper())
 
-    #@scheduler.task("interval", id="update_"+currencyPair.key, seconds=BASE_UPDATE_SCHEDULE_PERIOD, misfire_grace_time = 1)
     def update_currency_value(): 
         """
         Get values from Poloniex server
         """
         currencyPair.updateCurrencyCandles()
         
-    #@scheduler.task("interval", id="candle_60_"+currencyPair.key, seconds=CANDLE_60_SECONDS_PERIOD, misfire_grace_time = 1)
     def add_1_min_candle():
         """
         Updates 1 min candle to the MySQL server
@@ -78,8 +82,8 @@ def start_currency_candles(currency):
         databaseMySQL.update_1_min_candle(candle.getCandleMax(), candle.getCandleMin(),
                                         candle.getOpen(), candle.getClose(),
                                         currency)
+        logging.info("1 min candle updated")
         
-    #@scheduler.task("interval", id="candle_300_"+currencyPair.key, seconds=CANDLE_300_SECONDS_PERIOD, misfire_grace_time = 1)
     def add_5_min_candle():
         """
         Updates 5 min candle to the MySQL server
@@ -88,7 +92,8 @@ def start_currency_candles(currency):
         databaseMySQL.update_5_min_candle(candle.getCandleMax(), candle.getCandleMin(),
                                         candle.getOpen(), candle.getClose(),
                                         currency)
-    #@scheduler.task("interval", id="candle_600_"+currencyPair.key, seconds=CANDLE_600_SECONDS_PERIOD, misfire_grace_time = 1)
+        logging.info("5 min candle updated")
+    
     def add_10_min_candle():
         """
         Updates 10 min candle to the MySQL server
@@ -97,7 +102,9 @@ def start_currency_candles(currency):
         databaseMySQL.update_10_min_candle(candle.getCandleMax(), candle.getCandleMin(),
                                         candle.getOpen(), candle.getClose(),
                                         currency)
-    #logging.info("{} - Starting task for {}".format(datetime.now(), currency))
+        logging.info("10 min candle updated")
+    
+    logging.info("{} - Starting task for {}".format(datetime.now(), currency))
     
     scheduler.add_job(id=currency + "_update", name=currency + "_update", func=update_currency_value, trigger="interval", seconds=BASE_UPDATE_SCHEDULE_PERIOD)
     scheduler.add_job(id=currency + "_1min_candle", name=currency + "_1min_candle", func=add_1_min_candle, trigger="interval", seconds=CANDLE_60_SECONDS_PERIOD)
@@ -108,15 +115,18 @@ def start_currency_candles(currency):
 if __name__ == "__main__":      
     # Init log file
     logging.basicConfig(filename='Execution_log.log', 
-                        #encoding='utf-8',
                         level=logging.INFO)
     logging.warning("{} - Starting the Scheduler".format(datetime.now()))
+    
+    # Init currency list
     for currency in currency_list:
         if (currency in cc.disponible_currencies):
             logging.info("Logging currency {}".format(currency))
             start_currency_candles(currency)
         else:
             logging.warning("Currency {} not disponible, it will be ignored during the execution".format(currency))
+    
+    # Create the tasks and run the app
     scheduler.start()
     app.run(host="0.0.0.0", debug=True)
     
