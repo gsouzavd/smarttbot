@@ -47,7 +47,7 @@ currency_list = ['BTC', 'XMR']
 
 Caso um valor não reconhecido pelo sistema seja pedido a moeda será ignorada.
 
-As tarefas para cada moeda são lançadas na iniciailização do programa. A variável BASE_UPDATE_SCHEDULE_PERIOD pode ser alterada para regular o período da tarefa de aquisição de dados da API Poloniex. A mudança desse valor afetará a precisão, mas também a performance pois mais dados serão considerados nos cálculos das candles. Por padrão ela foi configurada para 2 segundos.A atualização das candles é feita a cada 1, 5 e 10 minutos respectivamente.
+As tarefas para cada moeda são lançadas na iniciailização do programa. A variável BASE_UPDATE_SCHEDULE_PERIOD pode ser alterada para regular o período da tarefa de aquisição de dados da API Poloniex. A mudança desse valor afetará a precisão, mas também a performance pois mais dados serão considerados nos cálculos das candles. Por padrão ela foi configurada para 2 segundos.A atualização das candles é feita a cada 1 minuto.
 
 O tratamento de erros de execução é baseado nos padrões fornecidos por APScheduler. A tarefa será executada múltiplas vezes até que ocorra o sucesso ou timeout. 
 
