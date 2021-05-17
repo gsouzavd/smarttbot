@@ -2,8 +2,7 @@ import CurrencyCandles as cc
 import DatabaseMySQL as db
 from datetime import datetime
 import sched, time
-from flask import Flask
-from flask import request
+from flask import Flask, request, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 from redis import Redis
@@ -13,9 +12,9 @@ from flask_mysqlpool import MySQLPool
 # Period in seconds of the task that gets current currency values from Poloniex
 # Value chosen due to system limitations
 BASE_UPDATE_SCHEDULE_PERIOD = 2 
-CANDLE_60_SECONDS_PERIOD = 60 # Period of the task - update the 1 min candle
-CANDLE_300_SECONDS_PERIOD = 60 # Period of the task - update the 5 min candle
-CANDLE_600_SECONDS_PERIOD = 60 # Period of the task - update the 10 min candle
+CANDLE_60_SECONDS_PERIOD = 5 # Period of the task - update the 1 min candle
+CANDLE_300_SECONDS_PERIOD = 5 # Period of the task - update the 5 min candle
+CANDLE_600_SECONDS_PERIOD = 5 # Period of the task - update the 10 min candle
 
 # Currency list that will be used
 currency_list = ['BTC', 'XMR'] # Bitcoin BTC and Monero XMR
@@ -29,6 +28,12 @@ class Config:
     # Avoid having too many executions at once, but gives window to a possible time lag
     SCHEDULER_JOB_DEFAULTS = {"coalesce": True, "max_instances": 1}
     SCHEDULER_API_ENABLED = True
+    
+    # Set pretty JSON and block key sort
+    JSONIFY_PRETTYPRINT_REGULAR = False
+    JSON_SORT_KEYS = False
+
+    # Database configuration
     MYSQL_HOST = "sql5.freemysqlhosting.net"
     MYSQL_PORT = 3306
     MYSQL_USER = "sql5411831"
@@ -45,7 +50,11 @@ app.config.from_object(Config())
 
 @app.route('/currency_sumary')
 def get_currency_sumary():
-    return databaseMySQL.get_select_currency(request.args.get('currency', default = 'BTC', type = str))
+    return jsonify(databaseMySQL.get_select_currency(request.args.get('currency', default = 'BTC', type = str)))
+
+@app.route('/currency_sumary/all')
+def get_currency_all():
+    return jsonify(databaseMySQL.get_select_all())
 
 def start_currency_candles(currency):
     """

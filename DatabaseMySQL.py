@@ -4,6 +4,14 @@ import json
 from datetime import datetime
 import CurrencyCandles as cc
 
+class HttpResponse:
+    """
+    Simple HTTP object response class
+    """
+    def __init__(self, code, obj):
+        self.response = code
+        self.object = obj
+
 class DatabaseMySQL:
     """
     Connects to a MySQL Dabase and Uploads the data to it
@@ -14,10 +22,28 @@ class DatabaseMySQL:
 
     def __create_MySQL_queries(self):
         # Queries used by the program
+        self.__sql_select_all = "SELECT * FROM sql5411831.Candles"
         self.__sql_select = "SELECT * FROM sql5411831.Candles WHERE currencyPair = %s"
         self.__sql_update_1min = "UPDATE sql5411831.Candles SET high1min = %s, low1min = %s, open1min = %s, close1min = %s, updateDate = %s WHERE currencyPair = %s"
         self.__sql_update_5min = "UPDATE sql5411831.Candles SET high5min = %s, low5min = %s, open5min = %s, close5min = %s, updateDate = %s WHERE currencyPair = %s"
         self.__sql_update_10min = "UPDATE sql5411831.Candles SET high10min = %s, low10min = %s, open10min = %s, close10min = %s, updateDate = %s WHERE currencyPair = %s"
+
+    def get_select_all(self):
+        """
+        GET - Get the complete candle data of a currecy in relation to USDT
+        @returns {json} Json with all table data 
+        """
+        connection_object = self.databaseMySQL.connection.get_connection()
+        cursor = connection_object.cursor()
+        cursor.execute(self.__sql_select_all)
+        row_headers = [x[0] for x in cursor.description]
+        json_data = []
+        for result in cursor.fetchall():
+            json_data.append(dict(zip(row_headers,result)))
+        connection_object.commit()
+        connection_object.close()
+        return HttpResponse(200, json_data).__dict__
+        
 
     def get_select_currency(self, currency):
         """
@@ -29,14 +55,14 @@ class DatabaseMySQL:
         val = (currency,)
         connection_object = self.databaseMySQL.connection.get_connection()
         cursor = connection_object.cursor()
-        print(cursor.execute(self.__sql_select, val))
+        cursor.execute(self.__sql_select, val)
         row_headers = [x[0] for x in cursor.description]
         json_data = []
         for result in cursor.fetchall():
             json_data.append(dict(zip(row_headers,result)))
         connection_object.commit()
         connection_object.close()
-        return json.dumps(json_data)
+        return HttpResponse(200, json_data).__dict__
 
     def update_1_min_candle(self, _high, _low, _open, _close, _currency):
         """

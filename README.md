@@ -13,21 +13,56 @@ O sistema consome a API [Poloniex](https://docs.poloniex.com/#introduction) para
 
 ## Chamada do sistema
 
-Como padrão o programa será iniciado no endereço e portas padrão da API Flask (127.0.0.1 : 5000). A chamada para pedir os resultados de uma moeda (Bitcoin no exemplo) é: http://127.0.0.1:5000/currency_sumary?currency=BTC. A reposta tem o seguinte formato:
+Como padrão o programa será iniciado no endereço e portas padrão da API Flask (127.0.0.1 : 5000). A chamada para pedir os resultados de uma moeda (Bitcoin (BTC) no exemplo) é: http://127.0.0.1:5000/currency_sumary?currency=BTC. A reposta tem o seguinte formato:
 
 ```json
-[
-    {
-        "currencyPair": "USDT_BTC",
-        "updateDate": "2021-05-13 23:04:32.402273",
-        "high1min": 49139.50002486, "low1min": 49104.12285336,
-        "high5min": 48653.60019807, "low5min": 48300.0,
-        "high10min": 48821.50521867, "low10min": 48300.0,
-        "open1min": 49109.8906812, "close1min": 49104.12285336,
-        "open5min": 48632.00583028, "close5min": 48300.0,
-        "open10min": 48670.64607541, "close10min": 48300.0
-    }
-]
+{
+    "response": 200,
+    "object": [
+        {
+            "currencyPair": "USDT_BTC",
+            "updateDate": "2021-05-17 20:52:19.142164",
+            "high1min": 44841.34726137,
+            "low1min": 44798.03867676,
+            "high5min": 44841.34726137,
+            "low5min": 44798.03867676,
+            "high10min": 44841.34726137,
+            "low10min": 44798.03867676,
+            "open1min": 44798.03867676,
+            "close1min": 44837.61110764,
+            "open5min": 44798.03867676,
+            "close5min": 44837.61110764,
+            "open10min": 44798.03867676,
+            "close10min": 44837.61110764
+        }
+    ]
+}
+```
+A http://127.0.0.1:5000/currency_sumary/all retorna todas as moedas na forma:
+
+```json
+{
+    "response": 200,
+    "object": [
+        {
+            "currencyPair": "USDT_AAVE",
+            "updateDate": "2021-05-17 20:59:22.548898",
+            "high1min": 582.97009103,
+            "low1min": 582.97009103,
+            "high5min": 582.97009103,
+            "low5min": 582.97009103,
+            "high10min": 582.97009103,
+            "low10min": 582.97009103,
+            "open1min": 582.97009103,
+            "close1min": 582.97009103,
+            "open5min": 582.97009103,
+            "close5min": 582.97009103,
+            "open10min": 582.97009103,
+            "close10min": 582.97009103
+        },
+        ...
+    ]
+}
 ```
 
 Os valores das Candles são calculados à partir da execução do programa. Os dados para a conexão MySQL se encontram no arquivo DatabaseMySQL.py. Como se trata de uma aplicação de teste um servidor [gratuíto](https://www.freemysqlhosting.net) foi utilizado, assim muitas requisições simultâneas podem causar instabilidade. O sistema aceita até 20 conexões ao mesmo tempo. A pool de 8 valores (16 conexões) foi criada para os testes. 
