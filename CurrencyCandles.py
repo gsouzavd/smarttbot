@@ -2,7 +2,6 @@ import requests
 import json
 from datetime import datetime, timedelta
 import pandas as pd
-import mysql.connector
 
 disponible_currencies = ['AAVE',
                         'ADABEAR',

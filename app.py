@@ -7,12 +7,13 @@ from flask import request
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 from redis import Redis
+from flask_mysqlpool import MySQLPool
 
 # Global variables to setup the program
 # Period in seconds of the task that gets current currency values from Poloniex
 # Value chosen due to system limitations
 BASE_UPDATE_SCHEDULE_PERIOD = 2 
-CANDLE_60_SECONDS_PERIOD = 60 # Period of the task - update the 1 min candle
+CANDLE_60_SECONDS_PERIOD = 5 # Period of the task - update the 1 min candle
 CANDLE_300_SECONDS_PERIOD = 300 # Period of the task - update the 5 min candle
 CANDLE_600_SECONDS_PERIOD = 600 # Period of the task - update the 10 min candle
 
@@ -20,7 +21,6 @@ CANDLE_600_SECONDS_PERIOD = 600 # Period of the task - update the 10 min candle
 currency_list = ['BTC', 'XMR'] # Bitcoin BTC and Monero XMR
 #scheduler = APScheduler()
 scheduler = BackgroundScheduler()
-databaseMySQL = db.DatabaseMySQL()
 
 class Config:
     """Flask app configuration."""
@@ -29,9 +29,18 @@ class Config:
     # Avoid having too many executions at once, but gives window to a possible time lag
     SCHEDULER_JOB_DEFAULTS = {"coalesce": True, "max_instances": 1}
     SCHEDULER_API_ENABLED = True
+    MYSQL_HOST = "sql5.freemysqlhosting.net"
+    MYSQL_PORT = 3306
+    MYSQL_USER = "sql5411831"
+    MYSQL_PASS = "KjHuJeWGEV"
+    MYSQL_DB = "sql5411831"
+    MYSQL_POOL_NAME = 'mypool'
+    MYSQL_POOL_SIZE = 8
+    MYSQL_AUTOCOMMIT = True
 
 app = Flask(__name__)
 redis = Redis(host='redis', port=6379)
+databaseMySQL = db.DatabaseMySQL(MySQLPool(app))
 app.config.from_object(Config())
 
 @app.route('/currency_sumary')
