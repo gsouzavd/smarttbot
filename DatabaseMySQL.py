@@ -10,20 +10,7 @@ class DatabaseMySQL:
     """
     def __init__(self, db):
         self.databaseMySQL = db
-        #self.__create_databse_connection()
         self.__create_MySQL_queries()
-    
-    def __create_databse_connection(self):
-        # Create the MySQL Connection to a test database
-        self.databaseMySQL = pooling.MySQLConnectionPool(
-            host="sql5.freemysqlhosting.net",
-            user="sql5411831",
-            password="KjHuJeWGEV",
-            database="sql5411831",
-            port="3306",
-            pool_name = "mypool",
-            pool_size = 2
-        )
 
     def __create_MySQL_queries(self):
         # Queries used by the program

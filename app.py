@@ -13,9 +13,9 @@ from flask_mysqlpool import MySQLPool
 # Period in seconds of the task that gets current currency values from Poloniex
 # Value chosen due to system limitations
 BASE_UPDATE_SCHEDULE_PERIOD = 2 
-CANDLE_60_SECONDS_PERIOD = 5 # Period of the task - update the 1 min candle
-CANDLE_300_SECONDS_PERIOD = 300 # Period of the task - update the 5 min candle
-CANDLE_600_SECONDS_PERIOD = 600 # Period of the task - update the 10 min candle
+CANDLE_60_SECONDS_PERIOD = 60 # Period of the task - update the 1 min candle
+CANDLE_300_SECONDS_PERIOD = 60 # Period of the task - update the 5 min candle
+CANDLE_600_SECONDS_PERIOD = 60 # Period of the task - update the 10 min candle
 
 # Currency list that will be used
 currency_list = ['BTC', 'XMR'] # Bitcoin BTC and Monero XMR
