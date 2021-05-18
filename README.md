@@ -87,4 +87,10 @@ As tarefas para cada moeda são lançadas na iniciailização do programa. A var
 O tratamento de erros de execução é baseado nos padrões fornecidos por APScheduler. A tarefa será executada múltiplas vezes até que ocorra o sucesso ou timeout. 
 
 
+## Algumas observações quanto ao desafio
+
+- Para facilitar a utilização eu já configurei um banco de dados (MySQL)
+- Ele funciona para todas as moedas disponíveis, mas está configurado para apenas duas para facilitar os testes
+- A conversão é feita para o dólar
+- Em caso de dúvidas: gsvdutra@gmail.com
 
